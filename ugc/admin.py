@@ -1,8 +1,7 @@
 from django.contrib import admin
 
 from .forms import ProfileForm
-from .models import Message
-from .models import Profile
+from .models import *
 
 
 @admin.register(Profile)
@@ -14,3 +13,8 @@ class ProfileAdmin(admin.ModelAdmin):
 @admin.register(Message)
 class MessageAdmin(admin.ModelAdmin):
     list_display = ('id', 'profile', 'text', 'created_at')
+
+
+@admin.register(Product)
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ('name', 'country')
