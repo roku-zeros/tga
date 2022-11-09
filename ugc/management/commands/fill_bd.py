@@ -11,10 +11,13 @@ class Command(BaseCommand):
         for country in COUNTRY_CHOICES:
             for year in range(2017, 2023):
                 for direction in DIRECTION_CHOICES:
-                    Product.objects.create(name="Тестовая база",
+                    p = Product.objects.create(name="Тестовая база",
                                            country=country[0],
                                            year=year,
                                            month="",
                                            direction=direction[0],
                                            price=1
                                            )
+                    with open('50.xlsx', 'rb') as excel:
+                        p.file.save('50.xlsx', excel)
+

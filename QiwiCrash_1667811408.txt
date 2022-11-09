@@ -1,0 +1,64 @@
+####################################################
+###################### STEP 1 ######################
+####################################################
+
+R-URL: https://api.qiwi.com/partner/bill/v1/bills/https://oplata.qiwi.com/form/?invoice_uid=d36c4be2-0d1d-40ff-a37b-3a8b554e2307
+URL: https://api.qiwi.com/partner/bill/v1/bills/https://oplata.qiwi.com/form/?invoice_uid=d36c4be2-0d1d-40ff-a37b-3a8b554e2307
+Code: 404 Not Found
+Method: GET
+
+##################### REQUEST ######################
+Headers:
+
+Host:           api.qiwi.com
+Accept:         */*
+Accept-Encoding: gzip, deflate
+Connection:     keep-alive
+User-Agent:     python-httpx/0.23.0
+Content-Type:   application/json
+Authorization:  Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6IjZyMXcyZC0wMCIsInVzZXJfaWQiOiI3OTc3MTI2NTAzOSIsInNlY3JldCI6ImRhNDE3NzUyNjI5MzMwZTU5ZDY0MmRhZDcwNzc4OTJlZDNkYjU4ZWQ4YTE0MTAyZmY3ZWI2YzY1NjA1NzQ1YTcifX0=
+
+########### CONTENT ############
+
+######### END CONTENT ##########
+
+##################### RESPONSE #####################
+
+Headers:
+
+Server:         nginx
+Date:           Mon, 07 Nov 2022 08:56:48 GMT
+Content-Type:   text/html;charset=iso-8859-1
+Content-Length: 274
+Connection:     keep-alive
+Cache-Control:  no-cache, no-store
+Cache-Control:  must-revalidate,no-cache,no-store
+X-B3-SpanId:    6c02551b80cec530
+X-B3-SpanId:    4d57cf9d7d8cc930
+X-Edge-Proxied-Response: true
+Expires:        Thu, 01 Jan 1970 00:00:00 GMT
+X-B3-ParentSpanId: 88c4a2e5cfe78a41
+X-B3-TraceId:   5bd9420e94fecdba
+content-encoding: gzip
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+
+########### CONTENT ############
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404 Not Found</h2>
+<table>
+<tr><th>URI:</th><td>/v1/bills/https:/oplata.qiwi.com/form/</td></tr>
+<tr><th>STATUS:</th><td>404</td></tr>
+<tr><th>MESSAGE:</th><td>Not Found</td></tr>
+<tr><th>SERVLET:</th><td>dispatcherServlet</td></tr>
+</table>
+
+</body>
+</html>
+
+######### END CONTENT ##########
+

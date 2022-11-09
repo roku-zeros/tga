@@ -14,6 +14,10 @@ class Profile(models.Model):
         verbose_name='ID сообщения с заказом',
         null=True,
     )
+    payment_id = models.TextField(
+        verbose_name='ID счета оплаты',
+        null=True,
+    )
     order_msg = models.TextField(
         verbose_name='Сообщение заказа',
         default="",
@@ -103,6 +107,7 @@ class Product(models.Model):
     price = models.IntegerField(
         verbose_name='Цена (в рублях)'
     )
+    file = models.FileField(upload_to='files', blank=True)
 
     class Meta:
         verbose_name = 'Товар'

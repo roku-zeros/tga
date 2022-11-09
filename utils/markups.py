@@ -82,3 +82,14 @@ def payment_markup():
     key_back = telebot.types.InlineKeyboardButton(text="Назад", callback_data="back")
     # keyboard.add(key_back)
     return keyboard
+
+
+def check_markup():
+    keyboard = telebot.types.InlineKeyboardMarkup()
+    key1 = telebot.types.InlineKeyboardButton(text=f"Получить файл", callback_data='get_file')
+    keyboard.row(key1)
+
+    # Add button for going back
+    key_back = telebot.types.InlineKeyboardButton(text="Назад", callback_data="back")
+    # keyboard.add(key_back)
+    return keyboard
