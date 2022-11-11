@@ -25,7 +25,8 @@ SECRET_KEY = '!k5g2b^@qmkxmbnt1ooc3%)yuryyka-j7@_gf3ws#k%q5o+b9r'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '195.2.92.129',
+    'wolf-mag.ru',
+    'www.wolf-mag.ru'
     'localhost',
     '127.0.0.1'
 ]
@@ -111,6 +112,6 @@ STATIC_ROOT = '/home/www/td/static/'
 
 # Настройки бота
 
-TELEGRAM_BOT_API_KEY = '5606754843:AAElr9IYXFMPNsiDUzxeu9JykqMQpzmPEWM'
+TELEGRAM_BOT_API_KEY = '5421685601:AAFv2k66OUKjAe_tSvlzChmoKkYdgj0yvt0'
 
 # PROXY_URL = 'https://telegg.ru/orig/bot'
